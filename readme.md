@@ -110,15 +110,15 @@ You have to create a `Readme.md` file. and write down following questions. Dont 
 
 ### 6. Answer the following questions clearly:
 
-1. What is the difference between **getElementById, getElementsByClassName, and querySelector / querySelectorAll**?<br>
+1. What is the difference between **getElementById, getElementsByClassName, and querySelector / querySelectorAll**?<br> <br>
  **Answer:** **getElementById** select a single element by id and return single element or null, **getElementsByClassName** select all elements of same id and return an html Collection, **querySelector/querySelectorAll** use css selectors to select element and return first matching element or null.
-2. How do you **create and insert a new element into the DOM**?
+2. How do you **create and insert a new element into the DOM**?<br> <br>
  **Answer:** Use document.createElement(tagName) than add HTML, text, classes, IDs, or other attributes then Insert the element into the DOM using apendchild() in parent element.
-3. What is **Event Bubbling** and how does it work?
+3. What is **Event Bubbling** and how does it work?<br> <br>
  **Answer:** When an event hapens on an element, it moves up to its parent elements automatically unless stopped.
-4. What is **Event Delegation** in JavaScript? Why is it useful?
+4. What is **Event Delegation** in JavaScript? Why is it useful?<br> <br>
 **Answer:** It is a technique where you atach a single event listener to a parent element to handle events on its child elements, instead of adding listeners to each child.
-5. What is the difference between **preventDefault() and stopPropagation()** methods?
+5. What is the difference between **preventDefault() and stopPropagation()** methods?<br> <br>
 **Answer:** preventDefault() Stop the browsers default action and stopPropagation() stops the event from bubbling up.
 
 ---
